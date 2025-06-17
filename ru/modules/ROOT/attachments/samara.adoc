@@ -1,0 +1,140 @@
+:icons: font
+:revealjs_theme: night
+:revealjs_transition: sky
+:revealjs_center: false
+:revealjs_history: true
+:revealjs_loop: true
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js
+:revealjs_totalTime: 900
+
+
+[background-image="church_zaha.png",background-opacity="0.6"]
+== Приглашение к Партнерству
+
+Вместе строим экосистему для будущего целого поколения детей в Самаре
+
+
+[.title-slide-style]
+++++
+<style>
+.reveal section.title h2 {
+  font-size: 1em !important;
+    opacity: 0.6  !important;
+}
+#press-s-hint {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  z-index: 10000;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  max-width: 300px;
+  text-align: center;
+  user-select: none;
+}
+#press-s-hint.hidden {
+  opacity: 0;
+}
+</style>
+
+<div id="press-s-hint">Press S for notes</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const hint = document.getElementById('press-s-hint');
+
+  // Use screen width as a proxy for desktop vs mobile
+  const minDesktopWidth = 768; // pixels
+
+  if (window.innerWidth < minDesktopWidth) {
+    // Hide the hint on narrow/mobile screens
+    hint.style.display = 'none';
+    return;
+  }
+
+  function hideHint() {
+    hint.classList.add('hidden');
+    setTimeout(() => hint.style.display = 'none', 1000);
+  }
+
+  // Hide after 1.5 seconds
+  setTimeout(hideHint, 1500);
+
+  // Hide if user presses S
+  document.addEventListener('keydown', function(e) {
+    if (e.key.toLowerCase() === 's') {
+      hideHint();
+    }
+  });
+
+  // Hide if slide changes from first slide
+  Reveal.on('slidechanged', event => {
+    if (event.indexh !== 0) {
+      hideHint();
+    }
+  });
+});
+</script>
+++++
+
+//image::church.png[width=50%]
+//image::church.png[background, size=cover]
+
+[background-image="done.png",background-opacity="0.6"]
+== Дерево, Дом, Дети и Активы — DONE
+[%step]
+- Что дальше?
+- Настало время инвестировать в будущее, которое строят наши дети
+- Образовательная робототехника — ключ к развитию навыков будущего
+
+[.columns]
+[background-image="kids.png",background-opacity="0.6"]
+== Общая Цель
+
+//[.column.is-one-quarter%step]
+//image::kids.png[]
+
+[.column%step]
+- Мы верим: дети должны заниматься творчеством, а не рутинной работой, которую выполняют роботы
+- Если вы разделяете этот образ — у нас общая миссия и цель
+
+[.columns]
+[background-image="pavel_frolov_smile.jpg",background-opacity="0.6"]
+== Кто Мы
+
+//[.column.is-one-quarter%step]
+//image::pavel_frolov_smile.jpg[]
+
+[.column%step]
+
+- РОББО это уже 100 000+ детей, изучающих Open Source робототехнику в 44+ странах мира
+- https://superelectronic.github.io/ppt/ru/p1-010-pavel_frolov.html[Павел Фролов — предприниматель и визионер, ведущий проект к масштабированию]
+- Готовы показать внутренние планы и стратегию движения к образу будущего
+
+[background-image="school.png",background-opacity="0.6"]
+== Самара готова к строительству Экосистемы
+[%step]
+- 142 062 детей от 7 до 17 лет, 48 частных школ и 93 СПО, 159 государственных школ
+- 600 крупных предприятий
+- 9 районов для открытия мультицентров, 65 кванториумов и технопарков
+
+[background-image="future.png",background-opacity="0.6"]
+== Наш План по Достижению Образа Будущего
+[%step]
+- от 15% школ города станут участниками экосистемы
+- 11 365 детей (8% школьного контингента) получат доступ к современному образованию
+- Для успешной реализации нам нужны ваши советы и экспертиза!
+
+== Приглашение к Диалогу
+
+- Звоните и пишите в Telegram: https://t.me/PavelFrolov_ROBBO[@pavel_frolov]
+- Приглашаем стать Партнером и вместе построить экосистему в Самаре
+- Инвестиции от 15 млн руб — Павел лично ведет переговоры, быстро подключая команду после NDA
